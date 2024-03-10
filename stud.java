@@ -7,20 +7,17 @@ class stud {
 
     public static void main(String[] args) {
         stud s = new stud();
+        s.name = "John Doe";
+        s.rollno = 1;
+        s.math = 80;
+        s.phy = 90;
+        s.eng = 85;
         s.getStudentDetails();
         s.displayStudentDetails();
     }
 
     void getStudentDetails() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Name: ");
-        name = sc.next();
-        System.out.println("Enter Roll Number: ");
-        rollno = sc.nextInt();
-        System.out.println("Enter marks in Maths, Physics, and English: ");
-        math = sc.nextInt();
-        phy = sc.nextInt();
-        eng = sc.nextInt();
+        // This method is used to get student details
     }
 
     void displayStudentDetails() {
